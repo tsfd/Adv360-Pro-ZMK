@@ -1,0 +1,90 @@
+[
+	{
+		"code": "&percol",
+		"name": "&percol",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&comexc",
+		"name": "&comexc",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&quogra",
+		"name": "&quogra",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&semat",
+		"name": "&semat",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&sands",
+		"name": "&sands",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&bsands",
+		"name": "&bsands",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&kpandlt",
+		"name": "&kpandlt",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&ltandkp",
+		"name": "&ltandkp",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&moandkp",
+		"name": "&moandkp",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&sandbs",
+		"name": "&sandbs",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&hm",
+		"name": "&hm",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
