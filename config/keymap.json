@@ -44,9 +44,9 @@
     ], [
        "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans",                      "&trans",                                                                      "&trans",    "&trans",      "&trans",        "&trans",      "&trans",                "&trans",       "&trans",
        "&trans", "&kp LC(Q)", "&kp LC(W)", "&kp LC(R)", "&kp LC(T)",    "&trans",                      "&trans",                                                                      "&trans",    "&trans", "&kp PAGE_UP",      "&kp HOME",     "&kp END",         "&kp PAGE_DOWN",       "&trans",
-       "&trans", "&kp LC(A)", "&kp LC(F)", "&kp LC(D)",   "&kp TAB", "&kp LC(L)",                      "&trans", "&trans", "&trans",                     "&trans",   "&trans",        "&trans",  "&kp LEFT",    "&kp DOWN",        "&kp UP",   "&kp RIGHT", "&kp LC(RIGHT_BRACKET)", "&kp LA(SEMI)",
+       "&trans", "&kp LC(A)", "&kp LC(F)", "&kp LC(D)",   "&kp TAB", "&kp LC(L)",                      "&trans", "&trans", "&trans",                     "&trans",        "&trans",   "&trans",  "&kp LEFT",    "&kp DOWN",        "&kp UP",   "&kp RIGHT", "&kp LC(RIGHT_BRACKET)", "&kp LA(SEMI)",
        "&trans", "&kp LC(Z)", "&kp LC(X)", "&kp LC(C)", "&kp LC(V)",    "&trans",                                          "&trans",                     "&trans",                              "&kp LC(N)",   "&kp LC(P)", "&kp PAGE_DOWN", "&kp PAGE_UP",                "&trans",       "&trans",
-       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",                        "&kp LC(BACKSPACE)", "&trans",  "&kp Y",                     "&trans", "&kp INT4", "&kp LC(SPACE)",                   "&trans",        "&trans",      "&trans",                "&trans",       "&trans"
+       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",                        "&kp LC(BACKSPACE)", "&trans",  "&kp Y",                     "&trans", "&kp LC(ENTER)", "&kp INT5",                   "&trans",        "&trans",      "&trans",                "&trans",       "&trans"
     ]
   ]
 }
