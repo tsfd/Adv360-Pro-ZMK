@@ -86,7 +86,7 @@
         label = "SHIFT_AND_SPACE";
         #binding-cells = <2>;
         flavor = "tap-unless-interrupted";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <100>;
         bindings = <&kp>, <&spcl4>;
     };
     sandbs: shift_and_backspace {
@@ -94,7 +94,7 @@
         label = "SHIFT_AND_BACKSPACE";
         #binding-cells = <2>;
         flavor = "tap-unless-interrupted";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <100>;
         quick-tap-ms = <175>;
         bindings = <&kp>, <&bspcl4>;
     };
