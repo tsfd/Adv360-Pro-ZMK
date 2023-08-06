@@ -32,6 +32,23 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    moandkp: mo_and_kp {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MO_AND_KP";
+        #binding-cells = <2>;
+        flavor = "tap-unless-interrupted";
+        tapping-term-ms = <200>;
+        bindings = <&mo>, <&kp>;
+    };
+    moandkpqt: mo_and_kp_qt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MO_AND_KP_QT";
+        #binding-cells = <2>;
+        flavor = "tap-unless-interrupted";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <175>;
+        bindings = <&mo>, <&kp>;
+    };
   };
 
     keymap {
@@ -44,7 +61,7 @@
             &kp TAB            &kp Q      &kp H      &kp O      &kp U             &kp X              &kp LEFT_WIN                                                                      &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z   &kp LEFT_BRACKET
  &mt LEFT_ALT MINUS            &kp Y      &kp I      &hm E      &kp A        &kp PERIOD                   &kp ESC   &kp LCTRL  &kp LG(TAB)                  &kp LA(TAB)    &kp RCTRL       &kp ENTER   &kp D   &kp S     &hm T        &kp N          &kp B           &kp SEMI
           &kp LSHFT            &kp J  &kp SLASH  &kp COMMA      &kp K  &kp SINGLE_QUOTE                                              &mo 7                        &mo 7                                &kp C   &kp G     &kp L        &kp P          &kp V      &kp RIGHT_ALT
-   &kp LEFT_CONTROL  &kp PRINTSCREEN   &kp CAPS   &kp LEFT  &kp RIGHT                              &moandkp LSHFT  &lt 5 INT4   &kp DELETE                   &kp INSERT  &lt 5 ENTER  &moandkp RSHFT          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
+   &kp LEFT_CONTROL  &kp PRINTSCREEN   &kp CAPS   &kp LEFT  &kp RIGHT                              &moandkpqt LSHFT BS  &lt 5 INT4   &kp DELETE                   &kp INSERT  &lt 5 ENTER  &moandkp RSHFT SPC          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &kp RIGHT_CONTROL
             >;
         };
 
