@@ -60,9 +60,9 @@
 
         layer_fn {
             bindings = <
-  &none   &kp F4  &kp F10   &kp F1   &kp F2   &kp F3            &tog 1                                                   &mo 3   &kp F7   &kp F6   &kp F5   &kp F9   &kp F8   &none
+  &none   &kp F4  &kp F10   &kp F1   &kp F2   &kp F3            &tog 1                                                  &tog 1   &kp F7   &kp F6   &kp F5   &kp F9   &kp F8   &none
   &none  &kp F14  &kp F20  &kp F11  &kp F12  &kp F13             &none                                                   &none  &kp F17  &kp F16  &kp F15  &kp F19  &kp F18   &none
- &trans   &trans   &trans   &trans   &trans   &trans             &none  &trans   &mo 3                  &trans  &trans   &none   &trans   &trans   &trans   &trans   &trans  &trans
+ &trans   &trans   &trans   &trans   &trans   &trans             &none  &kp F5   &mo 3                  &trans  &trans   &none   &trans   &trans   &trans   &trans   &trans  &trans
  &trans   &trans   &trans   &trans   &trans   &trans                            &trans                  &trans                   &trans   &trans   &trans   &trans   &trans  &trans
  &trans   &trans   &trans   &trans   &trans                     &trans  &trans  &trans                  &trans  &trans  &trans            &trans   &trans   &trans   &trans  &trans
             >;
@@ -90,11 +90,11 @@
 
         layer_ctrl {
             bindings = <
- &trans     &trans     &trans     &trans     &trans     &trans                  &trans                                                           &trans     &trans     &trans     &trans     &trans                 &trans        &trans
- &trans  &kp LC(Q)  &kp LC(W)  &kp LC(R)  &kp LC(T)     &trans                  &trans                                                           &trans  &kp PG_UP   &kp HOME    &kp END  &kp PG_DN                 &trans        &trans
- &trans  &kp LC(A)  &kp LC(F)  &kp LC(D)    &kp TAB  &kp LC(L)                  &trans  &trans  &trans                  &trans         &trans    &trans   &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp LC(RIGHT_BRACKET)  &kp LA(SEMI)
- &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)     &trans                                  &trans                  &trans                           &kp LC(N)  &kp LC(P)  &kp LC(L)  &kp LC(P)                 &trans        &trans
- &trans     &trans     &trans     &trans     &trans                       &kp LC(BSPC)  &trans   &kp Y                  &trans  &kp LC(ENTER)  &kp INT5                &trans     &trans     &trans                 &trans        &trans
+ &trans     &trans     &trans     &trans     &trans            &trans                  &trans                                                           &trans     &trans     &trans     &trans     &trans                 &trans        &trans
+ &trans  &kp LC(Q)  &kp LC(W)  &kp LC(R)  &kp LC(T)            &trans                  &trans                                                           &trans  &kp PG_UP   &kp HOME    &kp END  &kp PG_DN                 &trans        &trans
+ &trans  &kp LC(A)  &kp LC(F)  &kp LC(D)    &kp TAB  &macro_kill_line                  &trans  &trans  &trans                  &trans         &trans    &trans   &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp LC(RIGHT_BRACKET)  &kp LA(SEMI)
+ &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)            &trans                                  &trans                  &trans                           &kp LC(N)  &kp LC(P)  &kp LC(L)     &trans                 &trans        &trans
+ &trans     &trans     &trans     &trans     &trans                              &kp LC(BSPC)  &trans   &kp Y                  &trans  &kp LC(ENTER)  &kp INT5                &trans     &trans     &trans                 &trans        &trans
             >;
         };
 
