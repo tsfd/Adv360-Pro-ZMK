@@ -1,9 +1,3 @@
-macro_kill-line: macro_kill-line{
-compatible = "zmk,behavior-macro";
-label = "macro_kill-line";
-#binding-cells = <0>;
-bindings = <&kp HOME>, <&kp LS(END)>, <&kp LC(X)>;
-};
 macro_zeros: macro_zeros{
 compatible = "zmk,behavior-macro";
 label = "macro_zeros";
