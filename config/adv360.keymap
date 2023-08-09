@@ -69,7 +69,7 @@
     };
     nconvl4: nonconvert_layer4 {
         compatible = "zmk,behavior-mod-morph";
-        label = NONCONVERT_L4";
+        label = "NCONV_L4";
         #binding-cells = <0>;
         bindings = <&kp INT5>, <&sl 4>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -84,7 +84,7 @@
     };
     sandnconv: shift_and_nonconvert {
         compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_AND_NONCONVERT";
+        label = "SHIFT_AND_NCONV";
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <200>;
