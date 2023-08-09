@@ -32,64 +32,6 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-    percol: period_colon {
-        compatible = "zmk,behavior-mod-morph";
-        label = "PERIOD_COLON";
-        #binding-cells = <0>;
-        bindings = <&kp PERIOD>, <&kp COLON>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    comexc: comma_excl {
-        compatible = "zmk,behavior-mod-morph";
-        label = "COMMA_EXCL";
-        #binding-cells = <0>;
-        bindings = <&kp COMMA>, <&kp EXCL>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    quogra: quote_grave {
-        compatible = "zmk,behavior-mod-morph";
-        label = "QUOTE_GRAVE";
-        #binding-cells = <0>;
-        bindings = <&kp SINGLE_QUOTE>, <&kp GRAVE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    semat: semi_at {
-        compatible = "zmk,behavior-mod-morph";
-        label = "SEMI_AT";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp AT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    spcl4: spc_layer4 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "SPC_L4";
-        #binding-cells = <0>;
-        bindings = <&kp SPC>, <&sl 4>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    nconvl4: nonconvert_layer4 {
-        compatible = "zmk,behavior-mod-morph";
-        label = NONCONVERT_L4";
-        #binding-cells = <0>;
-        bindings = <&kp INT5>, <&sl 4>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    sands: shift_and_space {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_AND_SPACE";
-        #binding-cells = <2>;
-        flavor = "tap-unless-interrupted";
-        tapping-term-ms = <200>;
-        bindings = <&kp>, <&spcl4>;
-    };
-    sandnconv: shift_and_nonconvert {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_AND_NONCONVERT";
-        #binding-cells = <2>;
-        flavor = "hold-preferred";
-        tapping-term-ms = <200>;
-        bindings = <&kp>, <&nconvl4>;
-    };
   };
 
     keymap {
@@ -102,7 +44,7 @@
             &kp TAB            &kp Q      &kp H     &kp O      &kp U    &kp X                 &kp LEFT_WIN                                                                     &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z  &kp LEFT_BRACKET
  &mt LEFT_ALT MINUS            &kp Y      &kp I     &kp E      &kp A  &percol                      &kp ESC    &kp LALT  &kp RG(TAB)                  &kp LA(TAB)    &kp RCTRL       &kp BSPC   &kp D   &kp S     &kp T        &kp N          &kp B            &semat
           &kp LSHFT            &kp J  &kp SLASH   &comexc      &kp K  &quogra                                                 &mo 6                        &mo 6                               &kp C   &kp G     &kp L        &kp P          &kp V     &kp RIGHT_ALT
-          &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandnconv LSHIFT 0  &lt 5 INT4      &kp DEL                      &kp INS  &lt 5 ENTER   &sands RSHFT 0          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
+          &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandnconv LSHIFT  &lt 5 INT4      &kp DEL                      &kp INS  &lt 5 ENTER   &sands RSHFT          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
             >;
         };
 
