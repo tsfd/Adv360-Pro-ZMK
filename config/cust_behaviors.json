@@ -86,13 +86,5 @@
 			"code"
 		],
 		"type": "UD"
-	},
-	{
-		"code": "&sandnconv",
-		"name": "&sandnconv",
-		"params": [
-			"code"
-		],
-		"type": "UD"
 	}
 ]
