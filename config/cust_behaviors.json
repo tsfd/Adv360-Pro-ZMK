@@ -56,30 +56,6 @@
 		"type": "UD"
 	},
 	{
-		"code": "&ltandkp",
-		"name": "&ltandkp",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&moandkp",
-		"name": "&moandkp",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&sandbs",
-		"name": "&sandbs",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&hm",
 		"name": "&hm",
 		"params": [
