@@ -13,10 +13,10 @@
   ],
   "layers": [
     [
-                  "&kp ESC",          "&kp N4",    "&kp N0",   "&kp N1",    "&kp N2",  "&kp N3",                   "&mo 2",                                                                                        "&mo 2", "&kp N7", "&kp N6",   "&kp N5",      "&kp N9",        "&kp N8",            "&mo 3",
+                  "&kp ESC",          "&kp N4",    "&kp N0",   "&kp N1",    "&kp N2",  "&kp N3",                  "&tog 1",                                                                                        "&none", "&kp N7", "&kp N6",   "&kp N5",      "&kp N9",        "&kp N8",            "&mo 3",
                   "&kp TAB",           "&kp Q",     "&kp H",    "&kp O",     "&kp U",   "&kp X",            "&kp LEFT_WIN",                                                                                "&kp RIGHT_WIN",  "&kp W",  "&kp M",    "&kp R",       "&kp F",         "&kp Z", "&kp LEFT_BRACKET",
        "&mt LEFT_ALT MINUS",           "&kp Y",     "&kp I",    "&kp E",     "&kp A", "&percol",                 "&kp ESC",   "&kp LALT", "&kp RG(TAB)",                     "&kp LA(TAB)",   "&kp RCTRL",     "&kp ENTER",  "&kp D",  "&kp S",    "&kp T",       "&kp N",         "&kp B",           "&semat",
-                "&kp LSHFT",           "&kp J", "&kp SLASH",  "&comexc",     "&kp K", "&quogra",                                                "&mo 6",                           "&mo 6",                                  "&kp C",  "&kp G",    "&kp L",       "&kp P",         "&kp V",    "&kp RIGHT_ALT",
+                "&kp LSHFT",           "&kp J", "&kp SLASH",  "&comexc",     "&kp K", "&quogra",                                                "&mo 2",                           "&mo 2",                                  "&kp C",  "&kp G",    "&kp L",       "&kp P",         "&kp V",    "&kp RIGHT_ALT",
                 "&kp LCTRL", "&kp PRINTSCREEN",  "&kp CAPS", "&kp LEFT", "&kp RIGHT",                      "&sandbs LSHFT", "&moconv N5",     "&kp DEL",                         "&kp INS", "&lt 5 ENTER",  "&sands RSHFT",           "&kp UP", "&kp DOWN", "&kp PAGE_UP", "&kp PAGE_DOWN",        "&kp RCTRL"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",             "&trans",                                                                                      "&trans",                 "&none",   "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY", "&trans",
