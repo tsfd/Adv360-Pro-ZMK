@@ -32,80 +32,6 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-    percol: period_colon {
-        compatible = "zmk,behavior-mod-morph";
-        label = "PERIOD_COLON";
-        #binding-cells = <0>;
-        bindings = <&kp PERIOD>, <&kp COLON>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    comexc: comma_excl {
-        compatible = "zmk,behavior-mod-morph";
-        label = "COMMA_EXCL";
-        #binding-cells = <0>;
-        bindings = <&kp COMMA>, <&kp EXCL>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    quogra: quote_grave {
-        compatible = "zmk,behavior-mod-morph";
-        label = "QUOTE_GRAVE";
-        #binding-cells = <0>;
-        bindings = <&kp SINGLE_QUOTE>, <&kp GRAVE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    semat: semi_at {
-        compatible = "zmk,behavior-mod-morph";
-        label = "SEMI_AT";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp AT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    convnconv: conv_nonconv {
-        compatible = "zmk,behavior-mod-morph";
-        label = "CONVERT_NONCONVERT";
-        #binding-cells = <0>;
-        bindings = <&kp INT4>, <&kp INT5>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    spcl4: spc_layer4 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "SPC_L4";
-        #binding-cells = <0>;
-        bindings = <&kp SPC>, <&sl 4>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    bspcl4: bspc_layer4 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "BSPC_L4";
-        #binding-cells = <0>;
-        bindings = <&kp BSPC>, <&sl 4>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    sands: shift_and_space {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_AND_SPACE";
-        #binding-cells = <2>;
-        flavor = "tap-unless-interrupted";
-        tapping-term-ms = <200>;
-        bindings = <&kp>, <&spcl4>;
-    };
-    sandbs: shift_and_backspace {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_AND_BACKSPACE";
-        #binding-cells = <2>;
-        flavor = "tap-unless-interrupted";
-        tapping-term-ms = <200>;
-        quick-tap-ms = <175>;
-        bindings = <&kp>, <&bspcl4>;
-    };
-    moconv: mo_and_convnconv {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MO_AND_CONVNCONV";
-        #binding-cells = <2>;
-        flavor = "hold-preferred";
-        tapping-term-ms = <200>;
-        bindings = <&mo>, <&convnconv>;
-    };
   };
 
     keymap {
@@ -114,11 +40,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC           &kp N4     &kp N0    &kp N1     &kp N2   &kp N3                   &tog 1                                                                             &none  &kp N7  &kp N6    &kp N5       &kp N9         &kp N8             &mo 3
-   &kp TAB            &kp Q      &kp H     &kp O      &kp U    &kp X             &kp LEFT_WIN                                                                     &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z  &kp LEFT_BRACKET
- &kp MINUS            &kp Y      &kp I     &kp E      &kp A  &percol                  &kp ESC    &kp LALT  &kp LG(TAB)                  &kp RA(TAB)    &kp RCTRL      &kp ENTER   &kp D   &kp S     &kp T        &kp N          &kp B            &semat
- &kp LSHFT            &kp J  &kp SLASH   &comexc      &kp K  &quogra                                             &mo 2                        &mo 2                               &kp C   &kp G     &kp L        &kp P          &kp V     &kp RIGHT_ALT
- &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandbs LSHFT 0  &moconv 5 0      &kp DEL                      &kp INS  &lt 5 ENTER   &sands RSHFT 0          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
+   &kp ESC           &kp N4     &kp N0    &kp N1     &kp N2   &kp N3                     &tog 1                                                                               &none  &kp N7  &kp N6    &kp N5       &kp N9         &kp N8             &mo 3
+   &kp TAB            &kp Q      &kp H     &kp O      &kp U    &kp X               &kp LEFT_WIN                                                                       &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z  &kp LEFT_BRACKET
+ &kp MINUS            &kp Y      &kp I     &kp E      &kp A  &percol                    &kp ESC     &kp LALT  &kp LG(TAB)                  &kp RA(TAB)    &kp RCTRL       &kp ENTER   &kp D   &kp S     &kp T        &kp N          &kp B            &semat
+ &kp LSHFT            &kp J  &kp SLASH   &comexc      &kp K  &quogra                                                &mo 2                        &mo 2                                &kp C   &kp G     &kp L        &kp P          &kp V     &kp RIGHT_ALT
+ &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandbs LSHFT 0  &moconv 5 0      &kp DEL                      &kp INS  &lt 5 ENTER  &sands RSHFT 0          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
             >;
         };
 
@@ -164,11 +90,11 @@
 
         layer_ctrl {
             bindings = <
- &trans  &kp LC(N4)  &kp LC(N0)  &kp LC(N1)  &kp LC(N2)        &kp LC(N3)                       &trans                                                           &trans  &kp LC(N7)  &kp LC(N6)  &kp LC(N5)  &kp LC(N9)             &kp LC(N8)        &trans
- &trans   &kp LC(Q)   &kp LC(W)   &kp LC(R)   &kp LC(T)            &trans                       &trans                                                           &trans   &kp PG_UP    &kp HOME     &kp END   &kp PG_DN                 &trans        &trans
- &trans   &kp LC(A)   &kp LC(F)   &kp LC(D)     &kp TAB  &macro_kill_line                       &trans  &trans  &trans                  &trans         &trans    &trans    &kp LEFT    &kp DOWN      &kp UP   &kp RIGHT  &kp LC(RIGHT_BRACKET)  &kp LA(SEMI)
- &trans   &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)            &trans                                       &trans                  &trans                            &kp LC(N)   &kp LC(P)   &kp LC(L)      &trans                 &trans        &trans
- &trans      &trans      &trans      &trans      &trans                              &kp LC(BACKSPACE)  &trans   &kp Y                  &trans  &kp LC(ENTER)  &kp INT5                  &trans      &trans      &trans                 &trans        &trans
+ &trans  &kp LC(N4)  &kp LC(N0)    &kp LC(N1)     &kp LC(N2)        &kp LC(N3)                       &trans                                                           &trans  &kp LC(N7)  &kp LC(N6)    &kp LC(N5)  &kp LC(N9)             &kp LC(N8)        &trans
+ &trans   &kp LC(Q)   &kp LC(W)     &kp LC(R)      &kp LC(T)            &trans                       &trans                                                           &trans   &kp PG_UP    &kp HOME       &kp END   &kp PG_DN                 &trans        &trans
+ &trans   &kp LC(A)   &kp LC(F)     &kp LC(D)        &kp TAB  &macro_kill_line                       &trans  &trans  &trans                  &trans         &trans    &trans    &kp LEFT    &kp DOWN        &kp UP   &kp RIGHT  &kp LC(RIGHT_BRACKET)  &kp LA(SEMI)
+ &trans   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)            &trans                                       &trans                  &trans                            &kp LC(N)   &kp LC(P)     &kp LC(L)      &trans                 &trans        &trans
+ &trans      &trans      &trans  &kp LC(LEFT)  &kp LC(RIGHT)                              &kp LC(BACKSPACE)  &trans   &kp Y                  &trans  &kp LC(ENTER)  &kp INT5              &kp LC(UP)  &kp LC(DOWN)      &trans                 &trans        &trans
             >;
         };
 
