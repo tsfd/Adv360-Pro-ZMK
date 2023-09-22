@@ -40,40 +40,8 @@
 		"type": "UD"
 	},
 	{
-		"code": "&sandbs",
-		"name": "&sandbs",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&moconv",
-		"name": "&moconv",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&hm",
 		"name": "&hm",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&sand",
-		"name": "&sand",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&sandconv",
-		"name": "&sandconv",
 		"params": [
 			"code"
 		],
