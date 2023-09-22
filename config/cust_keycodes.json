@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"names": [
+			"convl4"
+		],
+		"description": "convl4",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
