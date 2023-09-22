@@ -62,5 +62,21 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&sand",
+		"name": "&sand",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&sandconv",
+		"name": "&sandconv",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
