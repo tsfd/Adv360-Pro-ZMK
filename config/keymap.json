@@ -51,9 +51,9 @@
     ], [
        "&trans",         "&trans",         "&trans", "&trans", "&trans", "&trans",               "&trans",                                                                                               "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",         "&trans",         "&trans", "&trans", "&trans", "&trans",               "&trans",                                                                                               "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",         "&trans",         "&trans", "&trans", "&trans", "&trans",               "&trans",     "&trans", "&kp K_POWER",                     "&kp K_POWER",          "&trans",            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",         "&trans",         "&trans", "&trans", "&trans", "&trans",               "&trans",     "&trans", "&kp K_POWER",                     "&kp K_POWER",      "&kp K_MUTE",            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",         "&trans",         "&trans", "&trans", "&trans", "&trans",                                            "&trans",                          "&trans",                                         "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&kp SCROLLLOCK", "&kp KP_NUMLOCK", "&trans", "&trans",                     "&kp K_PREV", "&kp K_NEXT",  "&kp K_STOP",                      "&kp K_MUTE", "&kp K_VOLUME_UP", "&kp K_VOLUME_DOWN",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&kp SCROLLLOCK", "&kp KP_NUMLOCK", "&trans", "&trans",                     "&kp K_PREV", "&kp K_NEXT",  "&kp K_STOP",                          "&trans", "&kp K_VOLUME_UP", "&kp K_VOLUME_DOWN",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
