@@ -100,11 +100,11 @@
 
         layer_VOL {
             bindings = <
- &trans          &trans          &trans  &trans  &kp F1  &kp LC(B)                &tog 6                                                                                    &tog 1  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans          &trans  &trans  &trans     &trans             &kp LC(B)                                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans          &trans  &trans  &trans     &trans                &kp F3      &trans  &kp K_POWER                  &kp K_POWER       &kp K_MUTE             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans          &trans  &trans  &trans     &trans                                         &trans                       &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp SCROLLLOCK  &kp KP_NUMLOCK  &trans  &trans                       &kp K_PREV  &kp K_NEXT   &kp K_STOP                       &trans  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN          &trans  &trans  &trans  &trans  &trans
+ &trans          &trans          &trans  &trans  &kp F1  &kp LC(B)                &tog 6                                                                                    &tog 1    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans          &trans          &trans  &trans  &trans     &trans             &kp LC(B)                                                                                    &trans    &trans    &trans  &trans     &trans  &trans  &trans
+ &trans          &trans          &trans  &trans  &trans     &trans                &kp F3      &trans  &kp K_POWER                  &kp K_POWER       &kp K_MUTE             &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans          &trans          &trans  &trans  &trans     &trans                                         &trans                       &trans                                        &trans    &trans  &trans     &trans  &trans  &trans
+ &trans  &kp SCROLLLOCK  &kp KP_NUMLOCK  &trans  &trans                       &kp K_PREV  &kp K_NEXT   &kp K_STOP                       &trans  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN              &trans  &trans     &trans  &trans  &trans
             >;
         };
 
