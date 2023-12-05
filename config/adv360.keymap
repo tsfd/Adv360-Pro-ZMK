@@ -20,28 +20,20 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    behaviors {
-      #include "macros.dtsi"
-      #include "version.dtsi"
-      #ifndef VERSION_MACRO
-      macro_ver: macro_ver {
-        compatible = "zmk,behavior-macro";
-        label = "macro_version";
-        #binding-cells = <0>;
-        bindings = <&kp RET>;
-      };
-      #endif
+  behaviors {
+    #include "macros.dtsi"
+    #include "version.dtsi"
 
-      hm: homerow_mods {
-          compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS";
-          #binding-cells = <2>;
-          tapping-term-ms = <200>;
-          quick_tap_ms = <175>;
-          flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
-      };
+    hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
     };
+  };
 
     keymap {
         compatible = "zmk,keymap";
@@ -82,7 +74,7 @@
   &none  &bt BT_SEL 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &none                                                                                &trans   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none             &bootloader                                                                           &bootloader   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none                   &none         &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none        &macro_ver     &none                                         &none                       &none                                       &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none                                         &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                          &out OUT_USB  &out OUT_BLE   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
         };
@@ -102,7 +94,7 @@
  &trans           &kp LC(N4)    &kp LC(N0)    &kp LC(N1)     &kp LC(N2)        &kp LC(N3)               &trans                                                                &trans  &kp LC(N7)  &kp LC(N6)    &kp LC(N5)       &kp LC(N9)             &kp LC(N8)        &trans
  &trans            &kp LC(Q)     &kp LC(W)     &kp LC(R)      &kp LC(T)            &trans               &trans                                                                &trans   &kp LC(F)   &kp PG_UP      &kp HOME          &kp END              &kp PG_DN        &trans
  &trans            &kp LC(A)     &kp LC(F)     &kp LC(D)        &kp TAB  &macro_kill_line            &kp LC(H)  &trans  &trans                  &trans         &trans   &kp LC(BSPC)    &kp LEFT    &kp DOWN        &kp UP        &kp RIGHT  &kp LC(RIGHT_BRACKET)  &kp LA(SEMI)
- &trans            &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)         &kp LC(K)                               &trans                  &trans                                 &kp LC(N)   &kp LC(P)     &kp LC(L)           &trans                 &trans        &trans
+ &trans            &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)         &kp LC(K)                               &trans                  &trans                                 &kp LC(P)   &kp LC(N)     &kp LC(L)           &trans                 &trans        &trans
  &trans  &kp LC(PRINTSCREEN)  &kp LC(CAPS)  &kp LC(LEFT)  &kp LC(RIGHT)                              &kp ENTER  &trans   &kp Y                  &trans  &kp LC(ENTER)  &kp LC(SPACE)              &kp LC(UP)  &kp LC(DOWN)  &kp LC(PAGE_UP)      &kp LC(PAGE_DOWN)        &trans
             >;
         };
