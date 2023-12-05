@@ -56,22 +56,6 @@
 		"type": "UD"
 	},
 	{
-		"code": "&ncl5n",
-		"name": "&ncl5n",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&",
-		"name": "&",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&l5ncl5n",
 		"name": "&l5ncl5n",
 		"params": [
