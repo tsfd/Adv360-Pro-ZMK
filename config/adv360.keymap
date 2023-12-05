@@ -100,13 +100,13 @@
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <200>;
-        bindings = <&sl 5>, <&kp INT5>;
+        bindings = <&sl>, <&kp>;
     };
     l5ncn: l5nconv_and_none {
         compatible = "zmk,behavior-mod-morph";
         label = "l5NCON5_NONE";
         #binding-cells = <0>;
-        bindings = <&l5nconv>, <&none>;
+        bindings = <&l5nconv 5 INT5>, <&none>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
