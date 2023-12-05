@@ -100,7 +100,7 @@
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <200>;
-        bindings = <&sl>, <&l5ncn>;
+        bindings = <&sl 5>, <&kp INT5>;
     };
     l5ncn: l5nconv_and_none {
         compatible = "zmk,behavior-mod-morph";
