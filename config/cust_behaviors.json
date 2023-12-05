@@ -54,5 +54,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&ncl5n",
+		"name": "&ncl5n",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
