@@ -62,13 +62,5 @@
 			"code"
 		],
 		"type": "UD"
-	},
-	{
-		"code": "&l5nconv",
-		"name": "&l5nconv",
-		"params": [
-			"code"
-		],
-		"type": "UD"
 	}
 ]

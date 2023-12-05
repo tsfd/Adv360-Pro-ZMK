@@ -19,6 +19,9 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/backlight.h>
 
+&lt {
+    flavor = "hold-preferred";
+};
 / {
   behaviors {
     #include "macros.dtsi"
@@ -32,6 +35,79 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
+    };
+    percol: period_colon {
+        compatible = "zmk,behavior-mod-morph";
+        label = "PERIOD_COLON";
+        #binding-cells = <0>;
+        bindings = <&kp PERIOD>, <&kp COLON>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    comexc: comma_excl {
+        compatible = "zmk,behavior-mod-morph";
+        label = "COMMA_EXCL";
+        #binding-cells = <0>;
+        bindings = <&kp COMMA>, <&kp EXCL>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    quogra: quote_grave {
+        compatible = "zmk,behavior-mod-morph";
+        label = "QUOTE_GRAVE";
+        #binding-cells = <0>;
+        bindings = <&kp SINGLE_QUOTE>, <&kp GRAVE>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    semat: semi_at {
+        compatible = "zmk,behavior-mod-morph";
+        label = "SEMI_AT";
+        #binding-cells = <0>;
+        bindings = <&kp SEMI>, <&kp AT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    spcl4: spc_layer4 {
+        compatible = "zmk,behavior-mod-morph";
+        label = "SPC_L4";
+        #binding-cells = <0>;
+        bindings = <&kp SPC>, <&sl 4>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    sands: shift_and_space {
+        compatible = "zmk,behavior-hold-tap";
+        label = "SHIFT_AND_SPACE";
+        #binding-cells = <2>;
+        flavor = "tap-unless-interrupted";
+        tapping-term-ms = <350>;
+        bindings = <&kp>, <&spcl4>;
+    };
+    convl4: conv_layer4 {
+        compatible = "zmk,behavior-mod-morph";
+        label = "CONV_L4";
+        #binding-cells = <0>;
+        bindings = <&kp INT4>, <&sl 4>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    sandconv: shift_and_conv {
+        compatible = "zmk,behavior-hold-tap";
+        label = "SHIFT_AND_CONV";
+        #binding-cells = <2>;
+        flavor = "tap-unless-interrupted";
+        tapping-term-ms = <350>;
+        bindings = <&kp>, <&convl4>;
+    };
+    l5nconv: l5_and_nconv {
+        compatible = "zmk,behavior-hold-tap";
+        label = "L5_AND_NCONV";
+        #binding-cells = <2>;
+        flavor = "hold-preferred";
+        tapping-term-ms = <200>;
+        bindings = <&sl>, <&kp>;
+    };
+    l5ncn: l5nconv_and_none {
+        compatible = "zmk,behavior-mod-morph";
+        label = "l5NCON5_NONE";
+        #binding-cells = <0>;
+        bindings = <&l5nconv 5 INT5>, <&none>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
 
