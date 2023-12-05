@@ -101,13 +101,13 @@
         bindings = <&ncl5>, <&none>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
-    ncl5: nconv_and_l5 {
+    l5ncl5n: l5_and_ncl5n {
         compatible = "zmk,behavior-hold-tap";
-        label = "NCONV_AND_L5";
+        label = "L5_AND_NCL5N";
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <200>;
-        bindings = <&kp INT5>, <&sl 5>;
+        bindings = <&sl>, <&ncl5n>;
     };
   };
 
