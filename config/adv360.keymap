@@ -68,7 +68,7 @@
         compatible = "zmk,behavior-mod-morph";
         label = "SPC_L4";
         #binding-cells = <0>;
-        bindings = <&sands>, <&sl>;
+        bindings = <&sands>, <&sl 4>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     sands: shift_and_space {
@@ -77,7 +77,7 @@
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <250>;
-        bindings = <&kp RSHIFT>, <&kp SPC>;
+        bindings = <&kp RSHFT>, <&kp SPC>;
     };
     convl4: conv_layer4 {
         compatible = "zmk,behavior-mod-morph";
@@ -121,7 +121,7 @@
    &kp TAB            &kp Q      &kp H     &kp O      &kp U    &kp X                 &kp LEFT_WIN                                                                           &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z  &kp LEFT_BRACKET
  &kp MINUS            &kp Y      &kp I     &kp E      &kp A  &percol                      &kp ESC  &mt LCTRL LG(TAB)    &mo 6                    &mo 6  &mt LCTRL LA(TAB)        &kp BSPC   &kp D   &kp S     &kp T        &kp N          &kp B            &semat
   &kp LALT            &kp J  &kp SLASH   &comexc      &kp K  &quogra                                                    &mo 2                    &mo 2                                      &kp C   &kp G     &kp L        &kp P          &kp V     &kp RIGHT_ALT
- &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandconv LSHFT 0             &l5ncn  &kp DEL                  &kp INS        &lt 5 ENTER  &spcl4 0 4          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
+ &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &sandconv LSHFT 0             &l5ncn  &kp DEL                  &kp INS        &lt 5 ENTER  &spcl4 0 0          &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
             >;
         };
 
