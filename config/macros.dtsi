@@ -1,3 +1,15 @@
+macro_macro_gt: macro_macro_gt{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_gt";
+#binding-cells = <0>;
+bindings = <&kp GT>, <&kp GT>;
+};
+macro_macro_lt: macro_macro_lt{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_lt";
+#binding-cells = <0>;
+bindings = <&kp LT>, <&kp LT>;
+};
 macro_kill_line: macro_kill_line{
 compatible = "zmk,behavior-macro";
 label = "macro_kill_line";
