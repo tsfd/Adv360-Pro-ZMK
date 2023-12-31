@@ -68,7 +68,7 @@
         compatible = "zmk,behavior-mod-morph";
         label = "SPC_L4";
         #binding-cells = <0>;
-        bindings = <&sands RSHFT SPC>, <&sl>;
+        bindings = <&sands>, <&sl>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     sands: shift_and_space {
@@ -77,7 +77,7 @@
         #binding-cells = <2>;
         flavor = "hold-preferred";
         tapping-term-ms = <250>;
-        bindings = <&kp>, <&kp>;
+        bindings = <&kp RSHFT>, <&kp SPC>;
     };
     convl4: conv_layer4 {
         compatible = "zmk,behavior-mod-morph";
