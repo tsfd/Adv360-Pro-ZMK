@@ -70,5 +70,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&convl4",
+		"name": "&convl4",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
