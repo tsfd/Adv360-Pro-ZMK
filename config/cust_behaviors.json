@@ -64,14 +64,6 @@
 		"type": "UD"
 	},
 	{
-		"code": "&l5nconv",
-		"name": "&l5nconv",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&convl4",
 		"name": "&convl4",
 		"params": [
