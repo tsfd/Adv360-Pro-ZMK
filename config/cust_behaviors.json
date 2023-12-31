@@ -32,14 +32,6 @@
 		"type": "UD"
 	},
 	{
-		"code": "&sands",
-		"name": "&sands",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&hm",
 		"name": "&hm",
 		"params": [
