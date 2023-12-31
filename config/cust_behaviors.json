@@ -62,5 +62,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&spcl4",
+		"name": "&spcl4",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
