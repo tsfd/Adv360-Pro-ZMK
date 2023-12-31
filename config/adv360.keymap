@@ -68,7 +68,7 @@
         compatible = "zmk,behavior-mod-morph";
         label = "SPC_L4";
         #binding-cells = <0>;
-        bindings = <&sands>, <&sl 4>;
+        bindings = <&sands 0 0>, <&sl 4>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     sands: shift_and_space {
