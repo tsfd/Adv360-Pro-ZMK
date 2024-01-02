@@ -1,14 +1,38 @@
-macro_macro_gt: macro_macro_gt{
+macro_bracket: macro_bracket{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_gt";
+label = "macro_bracket";
+#binding-cells = <0>;
+bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+};
+macro_gt: macro_gt{
+compatible = "zmk,behavior-macro";
+label = "macro_gt";
 #binding-cells = <0>;
 bindings = <&kp GT>, <&kp GT>;
 };
-macro_macro_lt: macro_macro_lt{
+macro_lt: macro_lt{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_lt";
+label = "macro_lt";
 #binding-cells = <0>;
 bindings = <&kp LT>, <&kp LT>;
+};
+macro_ltgt: macro_ltgt{
+compatible = "zmk,behavior-macro";
+label = "macro_ltgt";
+#binding-cells = <0>;
+bindings = <&kp LT>, <&kp GT>;
+};
+macro_paren: macro_paren{
+compatible = "zmk,behavior-macro";
+label = "macro_paren";
+#binding-cells = <0>;
+bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+};
+macro_brace: macro_brace{
+compatible = "zmk,behavior-macro";
+label = "macro_brace";
+#binding-cells = <0>;
+bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 };
 macro_kill_line: macro_kill_line{
 compatible = "zmk,behavior-macro";
