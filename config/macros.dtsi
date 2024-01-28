@@ -1,3 +1,9 @@
+macro_c-w: macro_c-w{
+compatible = "zmk,behavior-macro";
+label = "macro_c-w";
+#binding-cells = <0>;
+bindings = <&kp LC(LS(LEFT))>, <&kp LC(X)>;
+};
 macro_bracket: macro_bracket{
 compatible = "zmk,behavior-macro";
 label = "macro_bracket";
