@@ -1,8 +1,8 @@
-macro_c-w: macro_c-w{
+macro_kill_word: macro_kill_word{
 compatible = "zmk,behavior-macro";
-label = "macro_c-w";
+label = "macro_kill_word";
 #binding-cells = <0>;
-bindings = <&kp LC(LS(LEFT))>, <&kp LC(X)>;
+bindings = <&kp LC(X)>, <&kp LC(X)>;
 };
 macro_bracket: macro_bracket{
 compatible = "zmk,behavior-macro";
