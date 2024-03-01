@@ -81,11 +81,11 @@
 
         layer_symbol {
             bindings = <
- &trans         &trans                &trans             &trans                 &trans        &trans            &trans                                                        &trans        &trans            &trans          &trans             &trans          &trans  &trans
- &trans      &macro_lt         &kp LESS_THAN          &kp EQUAL       &kp GREATER_THAN     &macro_gt            &trans                                                        &trans        &trans  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET          &trans  &trans
- &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS      &kp HASH            &trans  &trans  &trans                  &trans     &trans     &trans     &kp TILDE    &kp LEFT_BRACE      &kp DOLLAR    &kp RIGHT_BRACE        &kp PIPE  &trans
- &trans    &macro_ltgt                &trans          &kp ASTRK               &kp PLUS  &macro_paren                            &trans                  &trans                        &macro_brace     &kp AMPERSAND       &kp CARET          &kp PRCNT  &macro_bracket  &trans
- &trans         &trans                &trans             &trans                 &trans                          &trans  &trans  &trans                  &trans  &kp ENTER  &kp SPACE                          &trans          &trans             &trans          &trans  &trans
+ &trans         &trans                &trans             &trans                 &trans        &trans            &trans                                                                             &trans        &trans            &trans          &trans             &trans          &trans  &trans
+ &trans      &macro_lt         &kp LESS_THAN          &kp EQUAL       &kp GREATER_THAN     &macro_gt            &trans                                                                             &trans        &trans  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET          &trans  &trans
+ &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS      &kp HASH            &trans  &trans              &trans                  &trans     &trans  &macro_del_brckets     &kp TILDE    &kp LEFT_BRACE      &kp DOLLAR    &kp RIGHT_BRACE        &kp PIPE  &trans
+ &trans    &macro_ltgt                &trans          &kp ASTRK               &kp PLUS  &macro_paren                                        &trans                  &trans                                 &macro_brace     &kp AMPERSAND       &kp CARET          &kp PRCNT  &macro_bracket  &trans
+ &trans         &trans                &trans             &trans                 &trans                          &trans  &trans  &macro_del_brckets                  &trans  &kp ENTER           &kp SPACE                          &trans          &trans             &trans          &trans  &trans
             >;
         };
 
