@@ -9,7 +9,8 @@
     "mod",
     "symbol",
     "ctrl",
-    "VOL"
+    "VOL",
+    "QWERTY"
   ],
   "layers": [
     [
@@ -31,7 +32,7 @@
        "&trans",  "&trans",  "&trans",       "&trans",    "&trans",    "&trans",                                    "&trans",                     "&trans",                      "&trans",  "&trans",  "&trans",  "&trans",  "&trans", "&trans",
        "&trans",  "&trans",  "&trans",       "&trans",    "&trans",                        "&kp ENTER", "&kp BSPC", "&trans",                     "&trans", "&trans", "&trans",             "&trans",  "&trans",  "&trans",  "&trans", "&trans"
     ], [
-        "&none", "&bt BT_SEL 4", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3",                  "&none",                                                                                           "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none", "&bt BT_SEL 4", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3",                  "&none",                                                                                           "&trans",  "&none",      "&none",      "&none",  "&none",  "&sl 7",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",            "&bootloader",                                                                                      "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                  "&none",        "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                            "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
@@ -54,6 +55,12 @@
           "&trans",         "&trans",         "&trans", "&kp LC(PLUS)", "&kp LC(MINUS)",    "&trans",               "&kp F3", "&kp LG(TAB)", "&kp K_POWER",                     "&kp K_POWER",      "&kp K_MUTE",            "&trans", "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans",     "&trans",
        "&kp LSHFT",         "&trans",         "&trans",       "&trans",        "&trans",    "&trans",                                             "&trans",                          "&trans",                                           "&trans",   "&trans", "&trans",    "&trans", "&trans", "&kp RSHIFT",
           "&trans", "&kp SCROLLLOCK", "&kp KP_NUMLOCK",       "&trans",        "&trans",                        "&kp K_PREV",  "&kp K_NEXT",  "&kp K_STOP",                          "&trans", "&kp K_VOLUME_UP", "&kp K_VOLUME_DOWN",               "&trans", "&trans",    "&trans", "&trans",     "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",              "&trans",                                                                          "&trans", "&trans", "&trans",    "&trans",     "&trans",        "&trans", "&trans",
+       "&trans",  "&kp Q",  "&kp W",  "&kp E",  "&kp R",  "&kp T",              "&trans",                                                                          "&trans",  "&kp Y",  "&kp U",     "&kp I",      "&kp O",         "&kp P", "&trans",
+       "&trans",  "&kp A",  "&kp S",  "&kp D",  "&kp F",  "&kp G",              "&trans",           "&trans", "&trans",                     "&trans",    "&trans", "&trans",  "&kp H",  "&kp J",     "&kp K",      "&kp L", "&kp SEMICOLON", "&trans",
+       "&trans",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",  "&kp B",                                            "&trans",                     "&trans",                         "&kp N",  "&kp M", "&kp COMMA", "&kp PERIOD",     "&kp SLASH", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&kp SPACE", "&kp LEFT_CONTROL", "&trans",                     "&trans", "&kp ENTER",  "&sl 0",           "&trans",    "&trans",     "&trans",        "&trans", "&trans"
     ]
   ]
 }
