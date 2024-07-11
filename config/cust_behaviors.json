@@ -78,5 +78,29 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&mm",
+		"name": "&mm",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&km",
+		"name": "&km",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&",
+		"name": "&",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
