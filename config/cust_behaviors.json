@@ -80,46 +80,6 @@
 		"type": "UD"
 	},
 	{
-		"code": "&mm",
-		"name": "&mm",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&km",
-		"name": "&km",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&",
-		"name": "&",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&mkp",
-		"name": "&mkp",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&mok",
-		"name": "&mok",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
 		"code": "&kpkp",
 		"name": "&kpkp",
 		"params": [
