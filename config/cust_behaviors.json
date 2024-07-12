@@ -78,21 +78,5 @@
 			"code"
 		],
 		"type": "UD"
-	},
-	{
-		"code": "&kpkp",
-		"name": "&kpkp",
-		"params": [
-			"code"
-		],
-		"type": "UD"
-	},
-	{
-		"code": "&mokp",
-		"name": "&mokp",
-		"params": [
-			"code"
-		],
-		"type": "UD"
 	}
 ]
