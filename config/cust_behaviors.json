@@ -102,5 +102,37 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&mkp",
+		"name": "&mkp",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&mok",
+		"name": "&mok",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&kpkp",
+		"name": "&kpkp",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&mokp",
+		"name": "&mokp",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
