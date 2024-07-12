@@ -135,7 +135,7 @@
    &kp TAB            &kp Q      &kp H     &kp O      &kp U    &kp X              &kp LEFT_WIN                                                                          &kp RIGHT_WIN   &kp W   &kp M     &kp R        &kp F          &kp Z  &kp LEFT_BRACKET
  &kp MINUS            &kp Y      &kp I     &mokp 5 E  &kp A  &percol                   &kp ESC  &mt LCTRL LA(TAB)    &mo 6                    &mo 6  &mt LCTRL LA(TAB)       &kp BSPC   &kp D   &kp S     &mokp 5 T    &kp N          &kp B            &semat
   &kp LALT            &kp J  &kp SLASH   &comexc      &kp K  &quogra                                                 &mo 2                    &mo 2                                     &kp C   &kp G     &kp L        &kp P          &kp V     &kp RIGHT_ALT
- &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &mt LSHFT INT4         &lt 4 INT5  &kp DEL                  &kp INS            &mokp 5 ENTER &kpkp RSHFT SPACE &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
+ &kp LCTRL  &kp PRINTSCREEN   &kp CAPS  &kp LEFT  &kp RIGHT                     &mt LSHFT INT4         &lt 4 INT5  &kp DEL                  &kp INS            &mokp 4 ENTER &kpkp RSHFT SPACE &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN         &kp RCTRL
             >;
         };
 
