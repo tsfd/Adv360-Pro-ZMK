@@ -179,7 +179,7 @@
 &none   &kp F14  &kp F20  &kp F11       &kp F12    &kp F13          &none                                            &none      &kp F17  &kp F16  &kp F15  &kp F19  &kp F18  &none
 &trans  &trans   &trans   &kp RC(HOME)  &kp RC(C)  &kp RC(L)        &kp RC(F)  &kp F5  &mo 3         &trans  &trans  &none      &trans   &trans   &trans   &trans   &trans   &trans
 &trans  &trans   &trans   &trans        &trans     &kp PRINTSCREEN                     &trans        &trans                     &trans   &trans   &trans   &trans   &trans   &trans
-&trans  &trans   &trans   &trans        &trans                      &kp ENTER  &kp F2  &kp BSPC      &trans  &trans  &kp SPACE           &trans   &trans   &trans   &trans   &trans
+&trans  &trans   &trans   &trans        &trans                      &kp ENTER  &kp F1  &kp BSPC      &trans  &trans  &kp SPACE           &trans   &trans   &trans   &trans   &trans
             >;
         };
 
@@ -215,9 +215,9 @@
 
         layer_VOL {
             bindings = <
-&mo 0      &trans          &trans          &trans        &trans         &kp LG(U)  &tog 6                                                                  &tog 1             &trans    &trans    &trans  &trans     &trans  &trans
-&trans     &mo 7           &trans          &trans        &trans         &trans     &kp F1                                                                  &trans             &trans    &trans    &trans  &trans     &trans  &trans
-&trans     &trans          &trans          &kp LC(PLUS)  &kp LC(MINUS)  &trans     &kp LC(B)   &kp K_SLEEP  &kp K_POWER      &kp K_POWER  &kp K_MUTE       &trans             &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&mo 0      &trans          &trans          &trans        &trans         &kp LG(U)  &trans                                                                  &tog 1             &trans    &trans    &trans  &trans     &trans  &trans
+&trans     &mo 7           &trans          &trans        &trans         &trans     &kp LC(B)                                                               &trans             &trans    &trans    &trans  &trans     &trans  &trans
+&trans     &trans          &trans          &kp LC(PLUS)  &kp LC(MINUS)  &trans     &kp F1      &kp K_SLEEP  &kp K_POWER      &kp K_POWER  &kp K_MUTE       &trans             &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &kp LSHFT  &trans          &trans          &trans        &trans         &trans                              &trans           &trans                                           &trans    &trans    &trans  &trans     &trans  &kp RSHIFT
 &trans     &kp SCROLLLOCK  &kp KP_NUMLOCK  &trans        &trans                    &kp K_PREV  &kp K_NEXT   &kp K_STOP       &trans       &kp K_VOLUME_UP  &kp K_VOLUME_DOWN            &trans    &trans  &trans     &trans  &trans
             >;
