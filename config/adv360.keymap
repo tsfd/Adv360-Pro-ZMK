@@ -216,8 +216,8 @@
         layer_VOL {
             bindings = <
 &mo 0      &trans          &trans          &trans        &trans         &kp LG(U)  &tog 6                                                                  &tog 1             &trans    &trans    &trans  &trans     &trans  &trans
-&trans     &mo 7           &trans          &trans        &trans         &trans     &kp LC(B)                                                               &trans             &trans    &trans    &trans  &trans     &trans  &trans
-&trans     &trans          &trans          &kp LC(PLUS)  &kp LC(MINUS)  &trans     &kp F1      &kp K_SLEEP  &kp K_POWER      &kp K_POWER  &kp K_MUTE       &trans             &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans     &mo 7           &trans          &trans        &trans         &trans     &kp F1                                                                  &trans             &trans    &trans    &trans  &trans     &trans  &trans
+&trans     &trans          &trans          &kp LC(PLUS)  &kp LC(MINUS)  &trans     &kp LC(B)   &kp K_SLEEP  &kp K_POWER      &kp K_POWER  &kp K_MUTE       &trans             &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &kp LSHFT  &trans          &trans          &trans        &trans         &trans                              &trans           &trans                                           &trans    &trans    &trans  &trans     &trans  &kp RSHIFT
 &trans     &kp SCROLLLOCK  &kp KP_NUMLOCK  &trans        &trans                    &kp K_PREV  &kp K_NEXT   &kp K_STOP       &trans       &kp K_VOLUME_UP  &kp K_VOLUME_DOWN            &trans    &trans  &trans     &trans  &trans
             >;
